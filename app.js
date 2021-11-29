@@ -19,7 +19,7 @@ var tth = document.querySelector("#tth")
 var tthcnt = 0;
 
 
-// console.log("hello");
+
 
 function handler() {
 
@@ -60,11 +60,7 @@ function handler() {
         }
 
     }
-    // console.log(tcnt)
-    // console.log(twcnt)
-    // console.log(hcnt)
-    // console.log(fhcnt)
-    // console.log(tthcnt)
+
     one.innerText = ocnt;
     five.innerText = fcnt;
     h.innerText = hcnt;
@@ -75,8 +71,4 @@ function handler() {
 
 }
 
-button.addEventListener("click", handler)
-
-
-
-// outputtext.innerText = val;
+button.addEventListener("click", handler);
